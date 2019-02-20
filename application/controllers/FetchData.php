@@ -6,7 +6,7 @@ use Restserver\Libraries\REST_Controller;
 require APPPATH . '/libraries/REST_Controller.php';
 require APPPATH . 'libraries/Format.php';
 
-class Sprint1 extends REST_Controller
+class FetchData extends REST_Controller
 {
 	public function __construct()
   {
